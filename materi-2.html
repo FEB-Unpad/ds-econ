@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Materi 2 · Pipeline riset dan anatomi big data publik</title>
+<meta name="description" content="Materi 2 · Pipeline riset dan anatomi big data publik">
+<meta name="author" content="Mohamad Fahmi">
+<style>
+  html { -webkit-text-size-adjust:100%; }
+  body { margin:0; background:#FFFFFF; padding:44px 22px 80px 22px; }
+  .bungkus { max-width:760px; margin:0 auto; }
+  a { color:#1F3A5F; text-decoration:none; border-bottom:1px solid #C3CBD6; }
+  a:hover { border-bottom-color:#1F3A5F; }
+  table { max-width:100%; }
+  @media (max-width:640px) {
+    body { padding:28px 16px 60px 16px; }
+    h1 { font-size:30px !important; line-height:1.15 !important; }
+    h2 { font-size:21px !important; }
+  }
+</style>
+</head>
+<body><div class="bungkus">
+<div style="font-family:-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;color:#2B3238;line-height:1.72;max-width:720px;font-size:16px;">
+<div style="border-top:3px solid #14181C;padding-top:16px;margin-bottom:44px;">
+<table style="width:100%;border-collapse:collapse;margin-bottom:26px;"><tr>
+<td style="font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#71797F;padding:0;">Sesi 01 &nbsp;/&nbsp; Materi 2</td>
+<td style="font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#71797F;padding:0;text-align:right;">Bacaan &nbsp;/&nbsp; 16 menit</td>
+</tr></table>
+<h1 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:40px;line-height:1.14;font-weight:normal;color:#14181C;margin:0 0 0 0;letter-spacing:-0.01em;">Pipeline Riset dan<br>Anatomi Big Data Publik</h1>
+</div>
+<p style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:20px;line-height:1.55;color:#14181C;margin:0 0 26px 0;">Ini materi bacaan kedua. Bagian tentang tujuh sumber data akan kamu pakai berulang kali sepanjang semester, jadi tandai halaman ini.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">01</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Lima tahap yang selalu ada</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Setiap proyek riset data yang berhasil melewati lima tahap yang sama. Urutannya jarang serapi diagram, tetapi kelimanya selalu ada. Kalau ada satu yang kamu lewati, biasanya proyeknya gagal di tahap yang jauh setelahnya, saat memperbaikinya sudah mahal.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">02</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Peta pipeline</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Ask. Get. Explore. Model. Communicate.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Merumuskan pertanyaan. Mengambil dan membersihkan data. Menjelajah dan memvisualkan. Mengestimasi dan memvalidasi. Menerjemahkan menjadi keputusan.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Kalender kelas ini persis mengikuti urutan itu. Minggu 1 dan 2 di Ask. Minggu 3 dan 4 di Get. Dan seterusnya sampai mini-symposium.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">03</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Aliran sebenarnya tidak satu arah</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Satu koreksi penting terhadap diagram itu. Aliran sebenarnya tidak satu arah.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Kamu akan sampai di tahap Explore, menemukan bahwa variabel kunci kamu hanya tersedia untuk lima tahun, lalu kembali mempersempit pertanyaan. Itu bukan tanda kegagalan. Itu cara kerja riset yang normal.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Yang berbahaya adalah kebalikannya: memaksakan pertanyaan awal kamu pada data yang tidak mampu menjawabnya, lalu menyembunyikan ketidakcocokan itu di bagian metodologi.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">04</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">ASK, bagian yang paling sering diremehkan</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Tahap pertama adalah yang paling sering diremehkan dan paling menentukan.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Pertanyaan riset yang buruk tidak bisa diselamatkan oleh metode secanggih apa pun. Pertanyaan riset yang tajam membuat semua keputusan berikutnya jadi jelas: variabel apa yang dicari, model mana yang dipakai, uji apa yang wajib.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">05</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Empat syarat pertanyaan yang bisa dikerjakan</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Pertanyaan yang baik memenuhi empat syarat.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Spesifik: jelas siapa, di mana, dan kapan. Terukur: variabelnya punya definisi operasional yang bisa ditemukan datanya. Feasible: bisa diselesaikan dalam empat belas minggu dengan data yang benar-benar ada. Relevan: jawabannya mengubah sesuatu untuk seseorang.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Syarat ketiga adalah yang paling sering dilanggar mahasiswa. Ambisi besar di Minggu 2 berubah menjadi panik di Minggu 8.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">06</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Bandingkan keduanya</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Contoh buruk: &ldquo;Bagaimana pengaruh digitalisasi terhadap perekonomian Indonesia?&quot;</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Tidak jelas apa itu digitalisasi, perekonomian yang mana, periode kapan, dan tidak ada satu pun variabel yang punya definisi operasional.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Contoh yang bisa dikerjakan: &ldquo;Apakah perluasan jaringan 4G di kabupaten-kabupaten di Jawa antara 2015 dan 2019 meningkatkan jumlah usaha mikro terdaftar?&quot;</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Perhatikan bedanya. Ada unit analisis, ada periode, ada variabel perlakuan, ada variabel hasil. Kamu langsung tahu data apa yang harus dicari, dan langsung tahu masalah identifikasinya: menara tidak dibangun secara acak.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">07</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">GET, dua jenis data yang berbeda secara mendasar</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Tahap kedua. Sebelum bicara teknik, kenali dulu dua jenis data yang berbeda secara fundamental.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Data yang dirancang. Survei, sensus, eksperimen. Dikumpulkan dengan tujuan riset, kerangka sampelnya diketahui, dan bisa dihitung representasinya.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Data organik. Transaksi, pencarian, unggahan, jejak lokasi, citra satelit. Muncul sebagai produk sampingan aktivitas lain. Tidak ada yang merancangnya untuk riset kamu.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Pembedaan ini dari Robert Groves, mantan Direktur Biro Sensus Amerika, dalam Public Opinion Quarterly tahun 2011.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">08</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Konsekuensinya bagi apa yang boleh kamu klaim</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Konsekuensinya menentukan apa yang boleh kamu klaim.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Data survei: sampelnya kecil, mahal, lambat, tetapi kamu tahu siapa yang diwakilinya. Data organik: besar, cepat, murah, tetapi kamu tidak tahu siapa yang hilang darinya.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Google Trends hanya merekam orang yang punya akses internet, memakai Google, dan memilih mencari kata itu. Kalau kelompok yang kamu pelajari justru kelompok yang jarang online, data kamu diam soal mereka, dan diamnya tidak terlihat di layar.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Ukuran sampel yang besar tidak memperbaiki bias seleksi. Ia hanya membuat estimasi yang bias terlihat lebih presisi.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">09</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Tiga jalur pengambilan data</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Secara teknis ada tiga jalur.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">API: cara paling rapi, penyedia data menyediakan pintu resmi. World Bank, FRED, dan Google Earth Engine semuanya punya API. Unduhan langsung: CSV di tautan tetap. Our World in Data dan sebagian data BPS. Web scraping: pilihan terakhir ketika tidak ada pintu resmi. Perhatikan syarat layanan situs dan etika pengambilannya.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">10</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Pembersihan akan memakan porsi terbesar waktumu</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Bersiaplah untuk kenyataan ini: pembersihan dan penggabungan data akan memakan porsi terbesar waktu kamu di proyek ini. Bukan pemodelan.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Nama kabupaten yang berbeda ejaan antar sumber. Kode wilayah yang berubah karena pemekaran. Nilai hilang yang bukan nol. Satuan yang tidak konsisten.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Tidak ada jalan pintas. Yang ada hanya dokumentasi yang rapi, sehingga kamu bisa menjelaskan setiap keputusan pembersihan tiga bulan kemudian saat ditanya penguji.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">11</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">EXPLORE, mencari stylized facts</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Tahap ketiga bukan soal membuat grafik yang bagus. Tujuannya menemukan stylized facts, yaitu pola yang konsisten dan cukup kuat sehingga model kamu wajib menjelaskannya.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Pertanyaan yang kamu ajukan pada tahap ini: bagaimana bentuk sebaran variabel utama, apa yang terjadi pada nilai-nilai ekstrem, apakah ada patahan tren yang bertepatan dengan perubahan kebijakan, dan apakah hubungan antar variabel terlihat linier.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Jawaban di tahap ini menentukan spesifikasi model kamu. Melewatinya berarti memilih model dengan menebak.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">12</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">MODEL, pertanyaan menentukan model</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Tahap keempat. Aturan tunggalnya: pertanyaan menentukan model, bukan sebaliknya.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Ingin mendeskripsikan hubungan pada satu titik waktu, dan variasi antar unit sudah cukup menjelaskan? OLS. Punya unit yang sama diamati berkali-kali, dan khawatir pada karakteristik tetap yang tidak teramati? Panel fixed effects. Variabel penjelas kamu dipengaruhi balik oleh variabel hasil? Variabel instrumen. Ada kebijakan yang berlaku pada sebagian unit di waktu tertentu? Difference-in-differences.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Empat alat ini yang dibahas di Minggu 7 dan 8. Yang menentukan pilihan bukan selera, melainkan struktur data dan sumber ancaman terhadap validitas.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">13</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Validasi, estimasi pertama bukan hasil</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Estimasi pertama yang keluar bukan hasil. Ia hipotesis tentang hasil.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Minggu 9 dan 10 kamu menguji apakah angka itu bertahan. Uji instrumen lemah dengan statistik F tahap pertama. Uji tren paralel untuk difference-in-differences. Uji placebo. Ganti variabel kontrol. Ganti subsampel.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Temuan yang runtuh ketika spesifikasinya sedikit digeser bukan temuan. Menemukan itu sendiri di Minggu 10 jauh lebih baik daripada penguji yang menemukannya di Minggu 15.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">14</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">COMMUNICATE, dua produk untuk dua audiens</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Tahap kelima. Dua produk, dua audiens.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Policy memo dua halaman untuk orang yang harus memutuskan sesuatu dan tidak akan membaca tabel regresi kamu. Ia butuh tahu apa temuannya, seberapa yakin kamu, dan apa yang sebaiknya dilakukan.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Laporan akademik untuk orang yang harus menilai apakah kamu boleh dipercaya. Ia justru membaca tabel, memeriksa asumsi identifikasi, dan mencari lubangnya.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Menulis keduanya adalah keterampilan terpisah dari menganalisis. Minggu 11 sampai 14 seluruhnya untuk itu.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">15</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Lima V, dan asal-usul kerangkanya</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Sekarang kembali ke sisi data. Kamu akan sering menemui kerangka lima V.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Volume, kecepatan, keragaman, kebenaran, dan nilai.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Sedikit kejujuran soal kerangka ini. Tiga yang pertama berasal dari catatan Doug Laney di Gartner tahun 2001, jauh sebelum istilah big data populer. Dua sisanya ditambahkan belakangan oleh berbagai pihak, dan daftarnya terus bertambah. Kamu akan menemukan versi tujuh V dan sepuluh V.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Pakai kerangka ini sebagai daftar periksa untuk menilai sumber data, bukan sebagai teori. Dua yang benar-benar menentukan nasib proyek kamu adalah kebenaran dan nilai. Data yang besar tetapi tidak mengukur hal yang kamu butuhkan tidak berguna, sebesar apa pun.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">16</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Tujuh sumber data kelas ini</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Kelas ini bekerja dengan tujuh sumber. Kenali kekuatan dan kelemahan masing-masing sekarang, bukan di Minggu 4.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Google Trends: harian, cepat, tetapi indeksnya relatif dan hanya mewakili pengguna internet. Google Mobility: berguna untuk periode 2020 sampai 2022, sekarang dihentikan. Google Earth Engine: resolusi geografis luar biasa, tetapi menuntut waktu belajar yang nyata. World Bank Open Data: lintas negara, rapi, tetapi tahunan dan banyak lubang untuk negara kecil. Our World in Data: paling mudah dipakai, sudah dikurasi, tetapi cakupan variabelnya terbatas. FRED: sangat lengkap untuk deret waktu makro, dominan data Amerika Serikat. BPS: satu-satunya yang sampai tingkat kabupaten untuk Indonesia, tetapi rilisnya lambat dan formatnya tidak selalu ramah mesin.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Proyek kamu wajib menggabungkan minimal dua sumber. Pikirkan sejak sekarang pasangan mana yang masuk akal untuk pertanyaan kamu, dan pada tingkat apa keduanya bisa disambungkan.</p>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<table style="width:100%;border-collapse:collapse;"><tr>
+<td style="width:46px;vertical-align:top;padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:13px;color:#1F3A5F;letter-spacing:0.06em;padding-top:9px;">17</td>
+<td style="padding:0;"><h2 style="font-family:Georgia, 'Times New Roman', Times, serif;font-size:26px;font-weight:normal;color:#14181C;margin:0;line-height:1.3;">Prinsip yang mengikat semuanya</h2></td>
+</tr></table></div>
+<p style="margin:18px 0 16px 0;color:#2B3238;">Satu prinsip yang mengikat semuanya. Setiap angka dalam laporan kamu harus bisa dihasilkan ulang oleh orang lain dari kode dan data kamu, tanpa bertanya kepada kamu.</p>
+<p style="margin:0px 0 16px 0;color:#2B3238;">Itulah alasan kita memakai GitHub sejak Minggu 3. Bukan formalitas. Riset yang tidak bisa direproduksi tidak bisa diverifikasi, dan yang tidak bisa diverifikasi tidak layak dipercaya.</p>
+<div style="border-top:1px solid #DCDFDA;margin:26px 0;padding-top:14px;"><table style="width:100%;border-collapse:collapse;"><tr><td style="width:132px;vertical-align:top;padding:0 18px 0 0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:#1F3A5F;padding-top:4px;">Berikutnya</td><td style="padding:0;color:#2B3238;font-size:15.5px;">Buka lab Colab di Blok 04. Setelah itu, forum kartu dataset di Blok 06.</td></tr></table></div>
+<div style="border-top:1px solid #DCDFDA;margin-top:44px;padding-top:20px;">
+<div style="font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:11px;letter-spacing:0.18em;text-transform:uppercase;color:#71797F;margin:0 0 10px 0;">Rujukan</div>
+<p style="margin:0 0 10px 0;font-size:14px;color:#71797F;padding-left:24px;text-indent:-24px;line-height:1.6;">Chetty, R., Friedman, J. N., Hendren, N., &amp; Stepner, M. (2020). The Economic Impacts of COVID-19: Evidence from a New Public Database Built Using Private Sector Data. NBER Working Paper 27431.</p>
+<p style="margin:0 0 10px 0;font-size:14px;color:#71797F;padding-left:24px;text-indent:-24px;line-height:1.6;">Choi, H., &amp; Varian, H. (2012). Predicting the Present with Google Trends. Economic Record, 88(s1), 2–9.</p>
+<p style="margin:0 0 10px 0;font-size:14px;color:#71797F;padding-left:24px;text-indent:-24px;line-height:1.6;">Groves, R. M. (2011). Three Eras of Survey Research. Public Opinion Quarterly, 75(5), 861–871.</p>
+<p style="margin:0 0 10px 0;font-size:14px;color:#71797F;padding-left:24px;text-indent:-24px;line-height:1.6;">Henderson, J. V., Storeygard, A., &amp; Weil, D. N. (2012). Measuring Economic Growth from Outer Space. American Economic Review, 102(2), 994–1028.</p>
+<p style="margin:0 0 10px 0;font-size:14px;color:#71797F;padding-left:24px;text-indent:-24px;line-height:1.6;">Laney, D. (2001). 3D Data Management: Controlling Data Volume, Velocity, and Variety. META Group Research Note.</p>
+<p style="margin:0 0 10px 0;font-size:14px;color:#71797F;padding-left:24px;text-indent:-24px;line-height:1.6;">Lazer, D., Kennedy, R., King, G., &amp; Vespignani, A. (2014). The Parable of Google Flu: Traps in Big Data Analysis. Science, 343(6176), 1203–1205.</p>
+<p style="margin:0 0 10px 0;font-size:14px;color:#71797F;padding-left:24px;text-indent:-24px;line-height:1.6;">Badan Pusat Statistik (2026, 5 Mei). Tingkat Pengangguran Terbuka (TPT) sebesar 4,68 persen. Berita Resmi Statistik. bps.go.id</p>
+<p style="margin:0 0 10px 0;font-size:14px;color:#71797F;padding-left:24px;text-indent:-24px;line-height:1.6;">Badan Pusat Statistik (2025, 5 November). Tingkat Pengangguran Terbuka (TPT) sebesar 4,85 persen. Berita Resmi Statistik. bps.go.id</p>
+<p style="margin:0 0 10px 0;font-size:14px;color:#71797F;padding-left:24px;text-indent:-24px;line-height:1.6;">Varian, H. R. (2014). Big Data: New Tricks for Econometrics. Journal of Economic Perspectives, 28(2), 3–28.</p>
+</div>
+<div style="border-top:1px solid #DCDFDA;margin-top:48px;padding-top:16px;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:11.5px;letter-spacing:0.04em;color:#71797F;">Prof. Mohamad Fahmi &nbsp;/&nbsp; Introduction to Data Science for Economists &nbsp;/&nbsp; Universitas Padjadjaran</div>
+<div style="border-top:1px solid #DCDFDA;margin-top:48px;padding-top:16px;"><table style="width:100%;border-collapse:collapse;"><tr><td style="padding:0;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;"><a href="materi-1.html">&larr; Materi 1</a></td><td style="padding:0;text-align:right;font-family:'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;"><a href="https://colab.research.google.com/github/FEB-Unpad/ds-econ/blob/main/sesi01/Lab_Sesi1_PHK_vs_Angka_Resmi.ipynb" target="_blank" rel="noopener">Lab Colab &rarr;</a></td></tr></table></div>
+</div>
+</div></body>
+</html>
